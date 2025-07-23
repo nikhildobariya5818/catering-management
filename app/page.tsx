@@ -171,13 +171,7 @@ export default function AdvancedCateringSystem() {
         </div>
 
         {/* Desktop Header */}
-        <div className="hidden md:block text-center py-6 px-4">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">એડવાન્સ કેટરિંગ મેનેજમેન્ટ સિસ્ટમ</h1>
-          <p className="text-lg text-gray-600">સંપૂર્ણ ભજિયા અને ચાટ કેટરિંગ સોલ્યુશન (MongoDB સાથે)</p>
-          <Button onClick={seedDatabase} className="mt-2 bg-purple-600 hover:bg-purple-700">
-            ડેટાબેઝ સીડ કરો
-          </Button>
-        </div>
+        
 
         <div className="px-2 md:px-4 pb-4">
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
