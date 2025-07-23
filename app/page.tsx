@@ -171,7 +171,10 @@ export default function AdvancedCateringSystem() {
         </div>
 
         {/* Desktop Header */}
-        
+        <div className="hidden md:block text-center py-6 px-4">
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">એડવાન્સ કેટરિંગ મેનેજમેન્ટ સિસ્ટમ</h1>
+          
+        </div>
 
         <div className="px-2 md:px-4 pb-4">
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
